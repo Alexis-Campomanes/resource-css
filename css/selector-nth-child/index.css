@@ -1,0 +1,16 @@
+/*li:nth-child(2){
+    background: #e70a4e;
+} It star from 1 not from 0*/
+
+/*li:nth-child(odd){
+    background: #e70a4e;
+}*/
+
+/*li:nth-child(even){
+    background: #e70a4e;
+}*/
+
+/* Selects every 3rd element, starting from 2*/
+li:nth-child(3n+2){
+    background: #e70a4e;
+}
